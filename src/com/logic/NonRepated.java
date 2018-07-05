@@ -1,5 +1,4 @@
 package com.logic;
-
 import java.util.Scanner;
 
 public class NonRepated {
