@@ -6,14 +6,11 @@ public class StringCode {
 	}
 
 	public static int difference(int a, int b) {
-		int d = a - b;
-		if (d < 0)
-			d = d * (-1);
-
-		return d;
+		int d = Math.abs(a - b);
+        return d;
 	}
-
 	public static void main(String args[]) {
+		
 		String input = "WORLD WIDE WEB";
 		int count ;
 		int n1, n2;
@@ -42,6 +39,7 @@ public class StringCode {
 		}
 		output = Integer.valueOf(total);
 		System.out.println(output);
+	
 
 	}
 }

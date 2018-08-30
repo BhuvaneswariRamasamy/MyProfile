@@ -13,6 +13,8 @@ public class SetExample {
 		names.add("Mary");
 		names.add("Ram");
 		names.add("Bhuvana");
+		names.add("Selvi");
+		
 		// To print elements in the Set
 		System.out.println(names);
 		// To print the size of the set

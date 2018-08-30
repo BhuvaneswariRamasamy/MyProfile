@@ -2,7 +2,7 @@ package com.logic;
 
 public class DigitSum {
 public static void main(String args[]) {
-int input1=567, n,sum1=0,sum2=0,sum3=0;
+int input1=568, n,sum1=0,sum2=0,sum3=0;
 int count=0;
 if(input1<0) {
 	input1=Math.abs(input1);
